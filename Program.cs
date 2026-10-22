@@ -23,3 +23,18 @@ Console.WriteLine("Enter second number:");
 int num2 = Convert.ToInt32(Console.ReadLine());
 int sum = AddNumbers(num1, num2);
 Console.WriteLine("The sum is: " + sum);
+
+
+
+//Arrays
+int[] numbers = new int[5];
+for(int i = 0; i < numbers.Length; i++)
+{
+    Console.WriteLine("Enter number " + (i + 1) + ":");
+    numbers[i] = Convert.ToInt32(Console.ReadLine());
+}
+Console.WriteLine("You entered:");
+for(int i = 0; i < numbers.Length; i++)
+{
+    Console.WriteLine(numbers[i]);
+}
